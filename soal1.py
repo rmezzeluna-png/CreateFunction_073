@@ -8,3 +8,7 @@ def convert_temperature (value, unit):
     else:
         print("unit harus 'C' atau 'F'") 
 
+print("------ KONVERSI SUHU ------")
+
+input_value = float(input("masukkan value: "))
+input_unit = input("masukkan unit (c/f): ")
